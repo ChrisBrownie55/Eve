@@ -304,7 +304,6 @@ makeFunction({
   returns: {result: "number"},
   apply: function(text:string, substring:string) {
     let ix = (""+text).indexOf(substring) + 1;
-    if(ix == 0) return;
     return [ix];
   }
 });
